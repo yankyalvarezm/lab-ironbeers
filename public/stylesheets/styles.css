@@ -7,7 +7,7 @@ font-family: Arial, Helvetica, sans-serif;
 */
 body {
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .centered {
@@ -67,10 +67,11 @@ nav>a {
 }
 
 .centered>img {
-    margin-top: 2rem;
-    margin-left: auto;
-    height: auto;
-    width: 45%;
+    margin: 0 auto;
+
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
 }
 
 .tagline {
@@ -78,8 +79,9 @@ nav>a {
 }
 
 .beer-all {
-    display: grid;
-    gap: 0 2rem;
+    /* display: grid; */
+    /* gap: 0 2rem; */
+    margin-right: 2rem;
 }
 
 .beer-image>img {
@@ -97,6 +99,5 @@ nav>a {
 .beer-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 2rem; */
-    /* flex-wrap: wrap; */
+    margin: 0rem 2rem;
 }
